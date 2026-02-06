@@ -284,7 +284,7 @@ export default function MourchidChat() {
                 </button>
               </div>
               <button 
-                onClick={handleSend}
+                onClick={() => handleSend()}
                 disabled={isLoading}
                 className="bg-marrakech-ochre text-white p-2 rounded-lg hover:bg-marrakech-ochre/90 transition-colors disabled:opacity-50"
               >
