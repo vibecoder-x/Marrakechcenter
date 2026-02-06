@@ -288,7 +288,7 @@ function App() {
             </div>
           </div>
         </div>
-      <Footer />
+      </footer>
 
       <MourchidChat />
     </div>

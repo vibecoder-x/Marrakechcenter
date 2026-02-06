@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
+import { X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
 
 const SYSTEM_PROMPT = `
 ### Role & Persona
