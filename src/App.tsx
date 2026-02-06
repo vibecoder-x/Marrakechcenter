@@ -12,6 +12,7 @@ import {
   Globe 
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import MourchidChat from './components/MourchidChat';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -287,7 +288,9 @@ function App() {
             </div>
           </div>
         </div>
-      </footer>
+      <Footer />
+
+      <MourchidChat />
     </div>
   );
 }
